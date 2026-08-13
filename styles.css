@@ -1,0 +1,72 @@
+            #search 
+            {
+                text-align: center;     
+                margin-top: 100px;
+            }
+            #links {
+                text-align: right;
+                margin-top: 20px;
+                margin-right: 20px;
+
+            }
+            #links a {
+                margin: 0 10px;
+                text-decoration: none;
+                color: blue;
+                font-size: 18px;
+                font-family: Arial, sans-serif; 
+            }
+            h1{
+                font-size: 80px;
+                color: #4285F4;
+                font-family: Arial, sans-serif;
+            }
+             input[type="text"]  {
+                width: 400px;
+                height: 30px;
+                font-size: 18px;        
+                padding: 5px;
+                border-radius: 10px;
+                border: 1px solid grey;
+                margin-bottom: 10px;
+                align-items: center;
+            }
+             input[type="submit"] {
+                height: 40px;
+                font-size: 18px;
+                background-color: #4285F4   ;
+                color: white;
+                border: none;
+                cursor: pointer;
+                border-radius: 10px;
+                margin:10px; 
+                align-items: center; 
+                
+            }
+             input[type="submit"]:hover {
+                background-color: #357AE8;
+            }
+            #advanced{
+                font-size: 18px; 
+                text-align: left;       
+                margin:20px;        
+                align-items: left;
+            }
+            
+            section {
+                text-align: center;
+                margin: 20px;   
+            }       
+            label {     
+                display:grid;   
+                grid-template-columns: 200px 0.2fr;
+                font-size: 20px ;
+                font-family: Arial, sans-serif;
+                margin-right: 10px; 
+                align-items: left;     
+                text-align: left;    
+                padding-bottom: 20px;
+            }
+            .submit-container {
+                margin:0 250px;
+            }
